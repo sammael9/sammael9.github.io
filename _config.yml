@@ -1,2 +1,3 @@
-	name: Filip Varga
-	markdown: kramdown
+name: Filip Varga
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
