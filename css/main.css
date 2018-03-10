@@ -36,10 +36,10 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #aaaaaa;
 }
 a:hover {
-    color: #eeeeee;
+    color: #dddddd;
 }
 h1 {
     font-size: 3em;
@@ -50,15 +50,15 @@ h2 {
 }
 h3 {
     font-size: 1.5em;
-    color: #999;
+    color: #aaaaaa;
 }
 p {
     font-size: 1em;
     line-height: 1.3em;
-    color: #333;
+    color: #666666;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #cccccc;
     font-size: 0.8em;
 }
 ul.posts { 
