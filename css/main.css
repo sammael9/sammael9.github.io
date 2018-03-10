@@ -78,6 +78,6 @@ ul.posts li {
 }
 .row:after {
     content: "";
-    display: table;
+    display: inline;
     clear: both;
 }
