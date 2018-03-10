@@ -7,7 +7,7 @@ footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.2em;
     display: inline;
 }
 nav ul {
@@ -15,7 +15,7 @@ nav ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.2em;
     border-bottom: 1px solid #d5d5d5;
     display: inline;
 }    
@@ -23,7 +23,7 @@ nav ul li, footer ul li {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
-    font-size: 1.7em;
+    font-size: 1.2em;
 }
 a {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
@@ -50,7 +50,7 @@ h3 {
 p {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     font-size: 1em;
-    line-height: 1.1em;
+    line-height: 1.3em;
     color: #333;
 }
 footer {
