@@ -65,3 +65,19 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.left {
+  width: 25%;
+}
+.right {
+  width: 75%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
