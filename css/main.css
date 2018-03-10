@@ -73,7 +73,6 @@ row {
 }
 row.column {
   float: left;
-  padding: 25px;
 }
 .column left {
   float: left;
@@ -88,4 +87,6 @@ row.column {
     display: table;
     clear: both;
 }
-
+container {
+      padding: 25px;
+}
