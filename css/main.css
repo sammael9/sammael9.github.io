@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 img {
     display: block;
@@ -9,7 +10,6 @@ img {
     width: 40%;
 }
 footer ul {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -17,7 +17,6 @@ footer ul {
     text-align:center;
 }
 nav ul {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -26,50 +25,40 @@ nav ul {
     text-align:center;
 }    
 nav ul li, footer ul li {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
     font-size: 1.2em;
 }
 a {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     text-decoration: none;
     color: #999;
 }
 a:hover {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 h2 {
     font-size: 2em;
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 h3 {
     font-size: 1.5em;
     color: #999;
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
 p {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     font-size: 1em;
     line-height: 1.3em;
     color: #333;
 }
 footer {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
     font-size: 1.2em;
 }
 ul.posts { 
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     margin: 20px auto 40px; 
     font-size: 1.2em;
 }
 ul.posts li {
-    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     list-style: none;
 }
