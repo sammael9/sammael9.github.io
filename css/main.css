@@ -65,18 +65,21 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-.column {
+row {
+    display: inline;
+}
+row.column {
     float: left;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
 }
-.left {
+row.column left {
   width: 25%;
 }
-.right {
+row.column right {
   width: 75%;
 }
-.row:after {
+row:after {
     content: "";
     display: inline;
     clear: both;
