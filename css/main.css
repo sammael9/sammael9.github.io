@@ -2,13 +2,19 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 footer ul {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
     font-size: 1.2em;
-    display: inline;
+    text-align:center;
 }
 nav ul {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
@@ -17,7 +23,7 @@ nav ul {
     font-weight: bold;
     font-size: 1.2em;
     border-bottom: 1px solid #d5d5d5;
-    display: inline;
+    text-align:center;
 }    
 nav ul li, footer ul li {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
