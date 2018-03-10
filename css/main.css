@@ -7,11 +7,13 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 1.7em;
 }
 nav ul li, footer ul li {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
+    font-size: 1.7em;
 }
 a {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
@@ -37,19 +39,19 @@ h3 {
 }
 p {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.1em;
     color: #333;
 }
 footer {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1.2em;
 }
 ul.posts { 
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 ul.posts li {
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
