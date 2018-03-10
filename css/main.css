@@ -26,8 +26,12 @@ h1 {
     font-size: 3em;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
-h1 {
+h2 {
     font-size: 2em;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
+}
+h3 {
+    font-size: 1.5em;
     color: #999;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Sans-Serif';
 }
