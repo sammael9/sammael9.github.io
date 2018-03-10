@@ -73,13 +73,13 @@ ul.posts li {
     float: left;
     padding: 10px;
 }
-.column left {
+.left {
   width: 25%;
 }
-.column right {
+.right {
   width: 75%;
 }
-row:after {
+.row:after {
     content: "";
     display: table;
 }
