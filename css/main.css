@@ -66,20 +66,24 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-* {
+row {
     box-sizing: border-box;
 }
-.column {
-    float: left;
-    padding: 10px;
+row.column {
+  float: left;
+  padding: 10px;
 }
-.left {
+.column left {
+  float: left;
   width: 25%;
 }
 .right {
+  float: right;
   width: 75%;
 }
 .row:after {
     content: "";
     display: table;
+    clear: both;
 }
+
