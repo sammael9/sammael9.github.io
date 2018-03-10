@@ -24,6 +24,7 @@ nav ul {
     font-size: 1.2em;
     border-bottom: 1px solid #d5d5d5;
     text-align:center;
+    line-height: 1.6em;
 }    
 nav ul li, footer ul li {
     display: inline;
