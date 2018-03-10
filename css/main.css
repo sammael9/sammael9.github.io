@@ -81,6 +81,6 @@ row.column right {
 }
 row:after {
     content: "";
-    display: inline;
+    display: table;
     clear: both;
 }
