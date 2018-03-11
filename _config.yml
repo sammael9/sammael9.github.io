@@ -2,7 +2,7 @@ name: Filip Varga
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections:
-- essays
+ essays:
 plugins:
 - jekyll-youtube
 

@@ -6,8 +6,9 @@ I am a 22 years old IT student.
 
 I like artificial intelligence, database systems, quantum computers and data mining.
 
-{% for item in site.my_collection %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% for essay in site.essays %}
+  <div class="essay">
+    <h2>{{ essay.title }}</h2>
+    {{ essay.content }}
+  </div>
 {% endfor %}
