@@ -6,6 +6,12 @@ title: My Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.date | date_to_long_string }}</span> *** <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		{% capture post_date %}{{ post.date | date_to_long_string }}{% endcapture %}
+		{% capture site_date %}{{ site.time | date_to_long_string }}{% endcapture %}
+		{% if post_date == site_date %}
+			&nbsp FRESH NEW POST
+		{% endif %}
+		</li>
 	  {% endfor %}
 	</ul>
