@@ -1,7 +1,13 @@
 ---
 title: "Project no. 1 - Create a static webpage serving for personal presentation using Jekyll + Markdown + Git + GitHubPages."
 ---
-### This is documentation.
-Text
-### This is documentation.
-Text
+### Intro
+This is a documentation to first assignment in Web Publishing. I have made a GitHubPages website using **Jekyll** and **Markdown** and exported my repository into zip archive, that I submitted into the AIS along with a url and readme file.
+### Layouts
+For the website I have used 3 different layouts. The **default** layout is used on every page as the under-layer, in which other layouts can be included, or just let as it is (like on this page). As such the **post** layout uses it, adding into its contents a section for the post date and underneath it is the content of the post. The **main** layout is a two column layout used on the landing homepage, so that in the index.html file all there is to specify is the picture for the left and text for the right column.
+### Elements
+I am using variables in the pages, such as **page.title** (each page), **page.picture** (for the main page), **content** (which is a standard variable), **layout** (for the individual layout), **site.time** or **post.date** (for retrieving date information), **site.posts** (to access all posts in the blog), **post.url** (to access the url of the individual post). I have a **collection** of essays on the About page, to list the abstracts of my essays generated through a for cycle on the page. They are stored in **_essays** folder. Various filters and tags are used, for example: **date_to_string** (to convert datetime into strings), **date_to_long_string** (similar to previous), both of these on various places, and also filters **xml_schema**, **date_to_xml_schema** in the atom.xml carried over from the Hank Quinlan tutorial to setup an RSS feed to my blog. A Liquid tag with an **if** statement to generate the sign FRESH NEW POST on the blog near today's posts is used. The footer and header are additionally placed on their own in the **_includes** folder and Liquid tags are used to include them in the default layout.
+### Plugin
+I have used the **jekyll-youtube** plugin, which is not functional on GitHubPages due to their policies towards unverified user-made plugins, so it is not available on the online site sammael9.github.io, but it did attach it into the exported project and it can be launched locally. It generates a responsive html snippet to embed a video from YouTube using its url onto my site. I have chosen a lecture about quantum computers to be the embed video, since I am quite interested in quantum computing.
+### Styles
+Adter modifying the style from the Hank Quinlan tutorial, I have finished the **main.css** file in the css folder. It alone contains all the styles used on the webpage, as the page was to remain simplistic. In summary, the Lucida Sans Unicode-Lucida Grande-Sans-Serif font family is used, the colours scale from black to silvery grey, the background has a slightly green and grey hue. Each page has a footer and header with just different contents in the body of the page. Pages have a 69% width, so blank spaces to the left and right are present. A date is always seen in the upper right corner. No other design features were downloaded, the rest of the css file was manually written by me. 
