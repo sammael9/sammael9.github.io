@@ -3,5 +3,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 collections:
 - my_collection
-plugins: [jekyll-youtube]
 
